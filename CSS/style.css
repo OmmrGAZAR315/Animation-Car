@@ -1,0 +1,323 @@
+*{
+  padding:0px;
+  margin: 0;
+  box-sizing: border-box;
+  }
+  body{
+    background-image: url(../Images/green.png);
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  main{
+    width: 100%;
+    position: relative;
+  }
+  div{
+    text-align: center;
+    line-height: 74px;
+    font-size: 29px;
+    font-family: cursive;
+    background: center no-repeat;
+    background-size: contain;
+    height: 200;
+    width: 270;
+    animation-duration: 3s;
+    position: absolute;
+    animation-fill-mode: forwards;
+  }
+  .I1stCar{
+    animation-delay: 1s;
+    background-image: url(../Images/1.png);
+    animation-name: I1stCar;
+    left: 0;
+    animation-timing-function: ease;
+  }
+  @keyframes I1stCar {
+    100%{
+      left:82%;
+    }
+  }
+  .B1{
+    right: 30;
+    top: 54px;
+    animation-name: buttons;
+    animation-delay: 4s;
+  }
+  .I2stCar{
+    background-image: url(../Images/2.png);
+    animation-name: I2stCar;
+    animation-delay: 4s;
+    right: 0;
+    top:117px;
+    animation-timing-function: ease-in;
+  }
+  @keyframes I2stCar {
+    100%{
+      right:82%;
+    }
+  }
+  .B2{
+    left: 30;
+    top: 179px;
+    animation-name: buttons;
+    animation-delay: 7s;
+  }
+  .I3stCar{
+    background-image: url(../Images/3.png);
+    animation-name: I3stCar;
+    animation-delay: 7s;
+    left: 0;
+    top:246px;
+    animation-timing-function: ease-out;
+  }
+  @keyframes I3stCar {
+    100%{
+      left:82%;
+    }
+  }
+  .B3{
+    right: 30;
+    top: 307px;
+    animation-name: buttons;
+    animation-delay: 10s;
+  }
+  
+  .I4stCar{
+    background-image: url(../Images/4.png);
+    animation-name: I4stCar;
+    animation-delay: 10s;
+    right: 15px;
+    top: 387px;
+    animation-timing-function: ease-in-out;
+  }
+  @keyframes I4stCar {
+    100%{
+      right:82%;
+    }
+  }
+  .B4{
+    left: 30;
+    top: 454px;
+    animation-name: buttons;
+    animation-delay: 13s;
+  }
+  .I5stCar{
+    background-image: url(../Images/5.jpg);
+    animation-name: I5stCar;
+    animation-delay: 13s;
+    left: 10;
+    top:536px;
+    animation-timing-function: ease-in-out;
+  }
+  @keyframes I5stCar {
+    100%{
+      left:82%;
+    }
+  }
+  .B5{
+    right: 30;
+    top: 595px;
+    animation-name: buttons;
+    animation-delay: 16s;
+  }
+  .I6stCar{
+    background-image: url(../Images/2.png);
+    animation-name: I6stCar;
+    animation-delay: 18s;
+    right: 15;
+    top:652px;
+    overflow: hidden;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+  }
+  @keyframes I6stCar {
+      1%{
+      overflow: visible;
+      }
+    100%{
+      right:34%;
+      color: #fff;
+      overflow: visible;
+    }
+  }
+  .gas6{
+    background: url(../Images/Exhaust\ gas1-2\ -\ Copy.jpg) no-repeat center;
+    background-size: contain;
+    position: absolute;
+    right: -234px;
+    top: -8px;
+    z-index: -1;
+    opacity: 0;
+    animation-name: gas6;
+    animation-delay: 17s;
+    animation-duration: 4s;
+  }
+  @keyframes gas6 {
+    50%{
+      opacity: 1;
+    }
+    100%{
+      opacity: 0;
+    }
+  }
+  .underCarR1{
+    position: absolute;
+    bottom: 50px;
+    left: 49px;
+    height: 40px;
+    width: 45px;
+    border-radius: 13px;
+    animation-name: underCarR;
+   animation-delay: 16s;
+   animation-duration: 1.5s;
+   animation-fill-mode: forwards;
+   opacity: 0;
+  }
+  @keyframes underCarR{
+    
+    80%{
+      width: 192px;
+      opacity: 1;
+    }
+    100%{
+      width: 192px;
+      opacity: 0;
+    }
+  }
+  .underCarR2{
+    position: absolute;
+    bottom: 50px;
+    right: 30px;
+    height: 40px;
+    width: 45px;
+    border-radius: 13px;
+    animation-name: underCarR;
+   animation-delay: 16s;
+   animation-duration: 1.5s;
+   animation-fill-mode: forwards;
+   opacity: 0;
+  }
+  .I7stCar{
+    background-image: url(../Images/6.jpg);
+    animation-name: I7stCar;
+    animation-delay: 18s;
+    left: 22px;
+    top: 652px;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+  }
+  @keyframes I7stCar {
+    100%{
+      left:32%;
+      color: #fff;
+      
+    }
+  }
+  .gas7{
+    background: url(../Images/Exhaust\ gas1-2.jpg) no-repeat center;
+    background-size: contain;
+    position: absolute;
+    left: -258px;
+    top: 0;
+    opacity: 0;
+    animation-name: gas7;
+    animation-delay: 17s;
+    animation-duration: 4s;
+  
+  }
+  @keyframes gas7 {
+    50%{
+      opacity: 1;
+    }
+    100%{
+      opacity: 0;
+    }
+  }
+  .underCarL1{
+    position: absolute;
+    bottom: 50px;
+    left: 12px;
+    height: 40px;
+    width: 45px;
+    border-radius: 13px;
+    animation-name: underCarL;
+   animation-delay: 16s;
+   animation-duration: 1.5s;
+   animation-fill-mode: forwards;
+   opacity: 0;
+  }
+  @keyframes underCarL{
+    
+    80%{
+      width: 214px;
+      opacity: 1;
+    }
+    100%{
+      width: 214px;
+      opacity: 0;
+    }
+  }
+  .underCarL2{
+    position: absolute;
+    bottom: 50px;
+    right: 42px;
+    height: 40px;
+    width: 45px;
+    border-radius: 13px;
+    animation-name: underCarL;
+    animation-delay: 16s;
+    animation-duration: 1.5s;
+   animation-fill-mode: forwards;
+   opacity: 0;
+  }
+  .inBetween{
+    background: url(../Images/fire.jpg) no-repeat center;
+    background-size: contain;
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -37px;
+    line-height: 142px;
+    left: 122px;
+      opacity: 0;
+    animation-name: inBetween;
+    animation-delay: 19.5s;
+    animation-duration: 1s;
+  }
+  @keyframes inBetween {
+    100%{
+      opacity: 1;
+      color: #fff;
+    }
+    
+  }
+  button{
+    position: absolute;
+    border: 20px solid rgb(242, 238, 238);
+    background-color: #DC2E25;
+    box-shadow: 10px 10px 0 #2B2B2B;
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    animation-duration: 0.1s;
+    z-index: -1;
+  }
+  button:active{
+    transform: translateX(4px) translateY(4px);
+    box-shadow: 4px 4px 0 #2B2B2B;
+  }
+  
+  @keyframes buttons {
+    100%{
+      transform: translateX(2px) translateY(2px);
+      box-shadow: 4px 4px 0 #2B2B2B;  
+    }
+  }
+
+  @keyframes buttons {
+    100%{
+      transform: translateX(2px) translateY(2px);
+      box-shadow: 4px 4px 0 #2B2B2B;  
+    }
+  }
