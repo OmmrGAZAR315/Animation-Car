@@ -315,7 +315,7 @@
     }
   }
 
-  @keyframes buttons {
+  @keyframes buttons{
     100%{
       transform: translateX(2px) translateY(2px);
       box-shadow: 4px 4px 0 #2B2B2B;  
